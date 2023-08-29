@@ -1,21 +1,25 @@
 body{
-    color:#2E2F42;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Tinos', serif;
+    color:#434455;
+    font-family: "Roboto", sans-serif;
+    background-color: #FFFFFF;
+    
 }
+
+  /*HEADER*/
 
 .nav-title{
     text-decoration: none;
     text-transform: uppercase;
     font-size: 18px;
     color:#2E2F42;
-    font-family:"Raleway", sans-serif;   
+    font-family:"Raleway", sans-serif;  
+    font-weight: 700; 
+    color: #4D5AE5;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
 }
 span{
-    color: #4D5AE5;
+    color: #2E2F42;
 }
 
 a{
@@ -25,21 +29,49 @@ a{
 
 ul{
     list-style-type:none;
-    
 }
 
-.nav-ul{
+.nav-li-a{
     font-weight: 500;
     font-size: 16px;
     font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
-.address-ul{
+.nav-li-a:hover{
+    color:#404bbf
+}
+
+.nav-li-a:focus{
+    color: #404bbf 
+}
+
+.addr{
+    font-style: normal;
+}
+
+.addr-li-a{
     font-weight: 400;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     text-transform: none;
-    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.addr-li-a:hover{
+    color: #404bbf;
+}
+
+.addr-li-a:focus{
+    color: #404bbf;
+}
+
+  /*SECTION 1*/
+
+.sect1{
+    background-color: #2E2F42;
 }
 
 .sect1-h1{
@@ -47,8 +79,9 @@ ul{
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     text-align: center;
-    background-color: #2E2F42;
     color: #ffff;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
 }
 
 .sect1-button{
@@ -58,14 +91,19 @@ ul{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     cursor: pointer;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
-h3{
-    font-size: 20px;
-    font-family:"Roboto", sans-serif ;
-    font-weight: 500;
-    line-height: 24px;
+.sect1-button:hover{
+    background-color: #404bbf;
 }
+
+.sect1-button:focus{
+    background-color: #404bbf;
+}
+
+  /*SECTION 2*/
 
 .h2{
     font-size: 36px;
@@ -75,14 +113,26 @@ h3{
     line-height: 24px;
 }
 
+h3{
+    font-size: 20px;
+    font-family:"Roboto", sans-serif ;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+
+
+
 .sect2-text{
     font-size: 16px;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     color: #434455;
     line-height: 24px;
-
+    letter-spacing: 0.02em;
 }
+
+/*SECTION3*/
 
 .sect3{
     background-color: #F4F4FD;
@@ -94,11 +144,18 @@ h3{
     font-family: "Roboto", sans-serif;
     font-weight:700 ;
     line-height: 40px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 
 .sect3-ul-img{
     width: 264px;
     height:260px;
+}
+
+.sect3-ul{
+    background-color: #FFFFFF;
 }
 
 .sect3-ul-title{
@@ -107,6 +164,7 @@ h3{
     font-weight: 500;
     text-align:center;
     line-height: 24px;
+    letter-spacing: 0.02em;
 }
 
 .sect3-ul-text{
@@ -115,9 +173,21 @@ h3{
     font-weight: 400;
     text-align:center;
     line-height: 24px;
+    letter-spacing: 0.02em;
+    color:#434455;
 }
 
 /* sect4*/
+
+.sect4-title{
+    line-height: 1.11;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+
+}
+
 .sect4-ul-img{
     width: 360px;
     height: 320px;
@@ -128,6 +198,7 @@ h3{
     font-weight: 500;
     line-height: 24px;
     font-family:"Roboto", sans-serif;
+    letter-spacing: 0.02em;
 }
 
 .sect4-ul-text{
@@ -136,26 +207,36 @@ h3{
     line-height: 24px;
     font-family:"Roboto", sans-serif;
     color: #434455;
+    letter-spacing: 0.02em;
 }
 
+/*FOOTER*/
 
 .footer{
     background-color: #2E2F42;
 }
 
 .footer-title{
-    color: #ffff;
+    color: #4D5AE5;
     text-transform: uppercase;
     font-size: 18px;
     line-height: 24px;
-    font-family:"Roboto", sans-serif ;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+
+}
+
+.footer-span{
+    color: #F4F4FD;
 }
 
 .footer-text{
     color: #ffff;
     font-size: 16px;
     line-height: 24px;
-    font-family:"Roboto", sans-serif ;
     font-weight: 400;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
 }
