@@ -37,6 +37,7 @@ ul{
     font-family: "Roboto", sans-serif;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color:#434455;
 }
 
 .nav-li-a:hover{
@@ -70,21 +71,21 @@ ul{
 
   /*SECTION 1*/
 
-.sect1{
+.sect_one{
     background-color: #2E2F42;
 }
 
-.sect1-h1{
+.sect_one-h1{
     font-size: 56px;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     text-align: center;
-    color: #ffff;
+    color: #FFFFFF;
     line-height: 1.07;
     letter-spacing: 0.02em;
 }
 
-.sect1-button{
+.sect_one-button{
     background-color: #4D5AE5;
     color: #ffff;
     font-size: 16px;
@@ -95,11 +96,11 @@ ul{
     letter-spacing: 0.04em;
 }
 
-.sect1-button:hover{
+.sect_one-button:hover{
     background-color: #404bbf;
 }
 
-.sect1-button:focus{
+.sect_one-button:focus{
     background-color: #404bbf;
 }
 
@@ -121,9 +122,11 @@ h3{
     letter-spacing: 0.02em;
 }
 
+.sect_two-ul-title{
+    color:#2e2f42;
+}
 
-
-.sect2-text{
+.sect_two-text{
     font-size: 16px;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -134,11 +137,11 @@ h3{
 
 /*SECTION3*/
 
-.sect3{
+.sect_three{
     background-color: #F4F4FD;
 }
 
-.sect3-title{
+.sect_three-title{
     text-align: center;
     font-size: 36px;
     font-family: "Roboto", sans-serif;
@@ -147,27 +150,30 @@ h3{
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    color: #2E2F42;
+     background-color: #FFFFFF;
 }
 
-.sect3-ul-img{
+.sect_three-ul-img{
     width: 264px;
     height:260px;
 }
 
-.sect3-ul{
+.sect_three-ul{
     background-color: #FFFFFF;
 }
 
-.sect3-ul-title{
+.sect_three-ul-title{
     font-size: 20px;
     font-family:"Roboto", sans-serif ;
     font-weight: 500;
     text-align:center;
     line-height: 24px;
     letter-spacing: 0.02em;
+    
 }
 
-.sect3-ul-text{
+.sect_three-ul-text{
     font-size: 16px;
     font-family:"Roboto", sans-serif ;
     font-weight: 400;
@@ -179,29 +185,36 @@ h3{
 
 /* sect4*/
 
-.sect4-title{
+.sect_four-title{
     line-height: 1.11;
     font-size: 36px;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-
+    color: #2e2f42;
 }
-
-.sect4-ul-img{
+/*
+.sect_four-ul-img{
     width: 360px;
     height: 320px;
 }
+*/
 
-.sect4-ul-title{
+.sect_four-title{
+    color: #2E2F42;
+}
+
+.sect_four-ul-title{
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
     font-family:"Roboto", sans-serif;
     letter-spacing: 0.02em;
+    color: #2E2F42;
+
 }
 
-.sect4-ul-text{
+.sect_four-ul-text{
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
