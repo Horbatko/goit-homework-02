@@ -158,15 +158,6 @@ h3{
     background-color: #FFFFFF;
 }
 
-.sect_three-ul-img{
-    width: 264px;
-    height:260px;
-}
-
-.sect_three-ul{
-    background-color: #FFFFFF;
-}
-
 .sect_three-ul-title{
     font-size: 20px;
     font-family:"Roboto", sans-serif ;
@@ -197,12 +188,6 @@ h3{
     text-transform: capitalize;
     color: #2e2f42;
 }
-/*
-.sect_four-ul-img{
-    width: 360px;
-    height: 320px;
-}
-*/
 
 .sect_four-title{
     color: #2E2F42;
