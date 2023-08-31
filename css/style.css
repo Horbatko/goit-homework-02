@@ -37,7 +37,7 @@ ul{
     font-family: "Roboto", sans-serif;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:#434455;
+    color:#2e2f42;
 }
 
 .nav-li-a:hover{
@@ -59,6 +59,7 @@ ul{
     text-transform: none;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .addr-li-a:hover{
@@ -75,7 +76,7 @@ ul{
     background-color: #2E2F42;
 }
 
-.sect_one-h1{
+.sect_one-title{
     font-size: 56px;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -151,7 +152,10 @@ h3{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;
-     background-color: #FFFFFF;
+}
+
+.sect_three-ul-li{
+    background-color: #FFFFFF;
 }
 
 .sect_three-ul-img{
@@ -170,7 +174,7 @@ h3{
     text-align:center;
     line-height: 24px;
     letter-spacing: 0.02em;
-    
+    color: #2e2f42;
 }
 
 .sect_three-ul-text{
@@ -207,11 +211,10 @@ h3{
 .sect_four-ul-title{
     font-size: 20px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.2;
     font-family:"Roboto", sans-serif;
     letter-spacing: 0.02em;
-    color: #2E2F42;
-
+    color: #2e2f42;
 }
 
 .sect_four-ul-text{
@@ -233,12 +236,10 @@ h3{
     color: #4D5AE5;
     text-transform: uppercase;
     font-size: 18px;
-    line-height: 24px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
-
 }
 
 .footer-span{
@@ -246,7 +247,6 @@ h3{
 }
 
 .footer-text{
-    color: #ffff;
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
